@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPORTANDO CSS -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- IMPORTANDO JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+    <style>
+/* DECLARACAO DE VARIAVEIS */
+:root{
+    --color-black: black;
+    --color-white: white;
+    --color-section-1: #294188;
+    --color-section-2: #e4d30e;
+    --color-text-primary: #f4f5dd;
+}
+
+/* FORMATACOES PADRAO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/* BODY */
+/* body {
+    display: flex;
+    height: 100vh;
+} */
+
+/* CABECALHO */
+header {
+    display: flex; /* PERMITE ORGANIZAR OS ITENS DE FORMA FLEXIVEL*/
+    width: 100%; /* DEFINE A LARGURA DO CABECALHO */
+    height: 60px; /* DEFINE A ALTURA DO CABECALHO */
+    position: fixed; /* CABECALHO PERMANECE FIXO MESMO APOS ROLAGEM DE TELA */
+    top: 0; /* POSICIONA O CABECALHO NO TOPO DA PAGINA */
+    background-color: var(--color-black); /* DEFINE O PLANO DE FUNDO DO CABECALHO */
+    text-align: center; /* CENTRALIZA HORIZONTALMENTE O TEXTO DENTRO DO CABECALHO */
+    align-items: center; /* ALINHA VERTICALMENTE O TEXTO DENTRO DO CABECALHO */
+    justify-content: space-between; /* DISTRIBUI OS ELEMENTO COM ESPACOS ENTRE ELES */
+    padding: 0 2rem; /* DEIXAR ESPACAMENTO EM CIMA E EMBAIXO ZERADOS E DEFINE NA DIREITA E ESQUERDA */
+}
+
+/* MENU DO CABECALHO */
+.menu-desktop ul {
+    display: flex; /* PERMITE ORGANIZAR OS ITENS DE FORMA FLEXIVEL */
+    gap: 2rem; /* DEFINE ESPACAMENTO ENTRE OS ITENS */
+    font-size: 16px; /* DEFINE TAMANHO DA FONTE DOS ITENS */
+    font-weight: 600; /* DEFINE A ESPESSURA DA FONTE DOS ITENS */
+}
+
+/* LINKS NO MENU DO CABECALHO */
+.menu-desktop ul li a {
+    color: var(--color-text-primary); /* DEFINE A COR DO TEXTO */
+}
+
+.menu-desktop ul li a:hover {
+    padding-bottom: .1rem; /* DEFINE TEXTO E LINHA */
+    border-bottom: .1rem solid var(--color-text-primary); /* DEFINE COR E ESPESSURA DE LINHA */
+}
+
+/* MAIN - BANNER INICIAL*/
+main section .banner {
+    width: 100%; /* DEFINE A LARGURA DO ELEMENTO */
+    height: auto; /* DEFINE A ALTURA DO ELEMENTO */
+    margin-top: 60px; /* DEFINE A MARGEM NO TOP DO ELEMENTO */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu-desktop {
+        display: none;
+    }
+}
+
+@media screen and (width: 1700px) {
+    main section .banner {
+        display: flex;
+        height: 871px; 
+    }
+}
+    </style>
+    
+    <!-- TÍTULO DA PÁGINA -->
+    <title>Cultura NBA</title>
+</head>
+<body>
+    <!-- INICIO CABEÇALHO DA PÁGINA -->
+    <header>
+        <!-- BANNER INICIAL DA PÁGINA -->
+        <div class="logo">
+            <img src="/SITE/IMAGES/logo-nba.svg" alt="Logo NBA">
+        </div>
+
+        <!-- INICIO MENU DESKTOP -->
+        <div class="menu-desktop">
+            <ul>
+                <li><a href="">hgjmd</a></li>
+                <li><a href="">nhzdf</a></li>
+                <li><a href="">zdfghnzfd</a></li>
+                <li><a href="">dfghnhdf</a></li>
+                <li><a href="">dfghnhdf</a></li>
+                <li><a href="https://www.nba.com/">Site Oficial NBA</a></li>
+            </ul>
+        </div>
+        <!-- FIM MENU DESKTOP -->
+    </header>
+    <!-- FIM CABEÇALHO DA PÁGINA -->
+
+    <!-- INICIO CONTEUDO DA PÁGINA -->
+    <main>
+        <section>
+            <div class="banner-site-1">
+                <img src="/SITE/IMAGES/banner-site-1.png" alt="Banner Site 1" class="banner">
+            </div>
+        </section>
+
+        <section>
+            <div class="banner-site-2">
+                <img src="/SITE/IMAGES/334944324_928567641485250_823929127831071168_n-removebg.png" alt="Banner Site 2" class="banner">
+            </div>
+        </section>
+    </main>
+    <!-- FIM CONTEUDO DA PÁGINA -->
+
+    <!-- INICIO RODAPÉ DA PÁGINA -->
+    <footer>
+
+    </footer>
+    <!-- FIM RODAPÉ DA PÁGINA -->
+</body>
+</html>
+
+<style>
+/* IMPORTANDO FONTE DE TEXTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
